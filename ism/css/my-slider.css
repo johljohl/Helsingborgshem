@@ -285,8 +285,8 @@ p.ism-badge a.ism-link:hover {
 
 #my-slider {
     width: 1280px;
-    height: 350px;
-    border-radius: 0;
+    height: 345px;
+    -webkit-border-radius: 5px; border-radius: 5px; 
 }
 
 #my-slider-ism-badge {
@@ -329,7 +329,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-radios {
-    display: block;
+    display: none;
     height: 20px;
     text-align: center;
 }
