@@ -1,6 +1,4 @@
 * { 
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
 body { 
@@ -56,33 +54,53 @@ body {
     padding: 8px 16px;
     margin: 16px 16px 16px 0px;
 }
-div main {
-    
-    width: 100%;
-    ;
-    padding-left: 2px;
-    margin: 20px;
-}
-.main img {
-    width: 450px;
-    display: inline-flex;
-    justify-content: space-between;
-    padding-left: 4px;
-    padding-top: 80px;
-    
-}
 .main {
-    box-sizing: content-box;
-    width: 100%;
-    border: lime;
-    padding-left: 50px;
-    background-color: lightseagreen;
+    width: 90%;
+   
+    
 }
-.footer { 
-width: 100%;
-height: 100%;
-background-color: lightgray;
+.item a {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+   
+}
 
+}
+.item { 
+    margin: 50px o 20px 0;
+    
+}
+.item h4 {
+    margin-left: 110px;
+}
+.main ul { 
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.main ul li img { 
+    width: 92%;
+    margin: 120px 0 0 100px;
+}
+.item h5 {
+    margin: 12px 0 0 105px;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+.item p {
+    width: 314px;
+    height: 100%;
+    padding-left: 10px;
+    margin: 0px 0 0 100px
+}
+
+.item .p2 {
+    margin: 12px 0 0 120px;
+}
+#footer { 
+width: 100%;
+background-color: lightgray;
 padding: 50px;
-margin: 20px
 }
