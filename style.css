@@ -56,3 +56,24 @@ body {
     padding: 8px 16px;
     margin: 16px 16px 16px 0px;
 }
+.main {
+    
+    width: 100%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+.main img {
+    width: 300px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-inline: 15px;
+    
+}
+.footer { 
+width: 100%;
+background-color: grey;
+border: 15px solid green;
+padding: 50px;
+margin: 20px
+}
