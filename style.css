@@ -1,9 +1,12 @@
-* { 
-    margin: 0;
-}
 body { 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+}
+
+/* ---navigation--*/
+
+header {
+    width: 100%;
+        
 }
 .navbar {
     background-color: white;
@@ -42,8 +45,8 @@ body {
 .btnColor a{
     display: inline-block;
     text-decoration: none;
-    width: 175px;
-    height: 45px;
+    width: 100px;
+    height: 25px;
     line-height: 22px;
     text-align: center;
     background-color: #43810D;
@@ -54,53 +57,62 @@ body {
     padding: 8px 16px;
     margin: 16px 16px 16px 0px;
 }
-.main {
-    width: 90%;
-   
-    
-}
-.item a {
-    display: inline-block;
-    vertical-align: middle;
-    color: white;
-   
-}
 
-}
-.item { 
-    margin: 50px o 20px 0;
-    
-}
-.item h4 {
-    margin-left: 110px;
-}
-.main ul { 
+/* --flex-conatiner--*/
+
+main { 
     width: 100%;
+    height: 1300px;
+    background-color: white;
+}
+.flex-container {
     display: flex;
-    list-style: none;
+    justify-content: center;
+    align-items: baseline
+    
 }
-.main ul li img { 
-    width: 92%;
-    margin: 120px 0 0 100px;
+.flex-container > div img{
+    background-color: lawngreen;
+    width: 80%;
+    margin: 14px;
 }
-.item h5 {
-    margin: 12px 0 0 105px;
+
+.flex-container > div {
+    background-color: lawngreen;
+    width: 80%;
+    margin: 7px;
+}
+
+.flex-container > div p {
+    background-color: rgb(0, 17, 252);
     font-size: 16px;
-    padding-left: 10px;
+    width: 80%;
+    margin: 0 0 0 16px;
+    
 
 }
-.item p {
-    width: 314px;
-    height: 100%;
-    padding-left: 10px;
-    margin: 0px 0 0 100px
+.flex-container > div .pc{
+    background-color: rgb(252, 0, 55);
+    text-align: center;
+    
+}
+.flex-container > div h4{
+    background-color: rgb(252, 143, 0);
+    font-size: 24px;
+    margin: 0 0 0 16px;
+   
+    
+} 
+.flex-container > div .h4c{
+    background-color: rgb(252, 0, 210);
+    text-align: center;
+    font-size: 24px;
+    
+    
 }
 
-.item .p2 {
-    margin: 12px 0 0 120px;
-}
-#footer { 
-width: 100%;
-background-color: lightgray;
-padding: 50px;
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
 }
